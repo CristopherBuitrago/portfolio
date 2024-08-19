@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- header -->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">Cristopher Dev</a>
+            </div>
+
+            <nav id="nav" class="responsive">
+                <ul>
+                    <li><a href="#home" onclick="select()">home</a></li>
+                    <li><a href="#about" onclick="select()">about</a></li>
+                    <li><a href="#skills" onclick="select()">skills</a></li>
+                    <li><a href="#curriculum" onclick="select()">curriculum</a></li>
+                    <li><a href="#portfolio" onclick="select()">portfolio</a></li>
+                    <li><a href="#contact" onclick="select()">contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-responsive" onclick="showHideMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- home section -->
+    <section id="home" class="home">
+        <div class="banner-content">
+            <div class="img-content">
+                <img src="img/personalmg.png" alt="a picture of myself" id="personal-img">
+            </div>
+            <h1>Cristopher Buitrago</h1>
+            <h2>Desarrollador Backend Junior</h2>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/cristopher-buitrago-02b908304/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/CristopherBuitrago"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- about -->
+    <section id="about" class="about">
+        <div class="section-content">
+            <h2>About me</h2>
+            <p><span>Hello, I'm not a Robot, I'm Cristopher Buitrago.</span> a young man passionate about Backend
+                development, I am characterized by my great ability to solve problems with the help of my creativity and
+                innovation. I am a young man focused on achievement, I always look for ways to continue learning and
+                contribute my knowledge to people who need it. </p>
+            <div class="row">
+                <!-- personal data -->
+                <div class="col">
+                    <h3>Personal Data</h3>
+                    <ul>
+                        <li>
+                            <strong>Birth</strong>
+                            09-07-2007
+                        </li>
+                        <li>
+                            <strong>Phone</strong>
+                            +57 318 342 7373
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            cristopherbuitrago0907@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            This
+                        </li>
+                        <li>
+                            <strong>Address</strong>
+                            Zona Franca Santander
+                        </li>
+                        <li>
+                            <strong>Current job</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="interes-container">
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LEARN</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-trophy"></i>
+                            <span>CHALLENGES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>DRIVE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-lightbulb"></i>
+                            <span>INNOVATE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-hammer"></i>
+                            <span>WORK</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>PHOTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>TRAVEL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                Download CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- skills -->
+    <section class="skills" id="skills">
+        <div class="section-content">
+            <h2>Skills</h2>
+            <div class="row">
+                <!-- technical -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>97%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MySQL</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PostgreSQL</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>86%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Figma</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>CSS</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>68%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- professional skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunication</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>78%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Team Work</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>83%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creativity</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Attention to detail</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>91%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Charisma</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>110%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedication</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>87%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Project Managment</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>63%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- curriculum -->
+    <section id="curriculum" class="curriculum">
+        <div class="section-content">
+            <h2>Curriculum</h2>
+            <div class="row">
+                <div class="col left">
+                    <h3>Education</h3>
+                    <div class="item item-left">
+                        <h4>Backend developer</h4>
+                        <span class="place">Campuslands</span>
+                        <span class="date">2023 - 2024</span>
+                        <p>Intensive training by 10 months, learning differents programming languages and professional
+                            skills. Focused only in the backend development</p>
+                        <div class="conectorl">
+                            <div class="circlel">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item item-left">
+                        <h4>Independent</h4>
+                        <span class="place">Home</span>
+                        <span class="date">Always</span>
+                        <p>I love learning more things always, currently i'm studying the art of the frontend and
+                            improving my english skills. With help of this, i've achieved to make web applications with
+                            the goal of sell all as a freelance developer.</p>
+                        <div class="conectorl">
+                            <div class="circlel">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col right">
+                    <h3>Work experience</h3>
+                    <div class="item item-right">
+                        <h4>Frontend developer</h4>
+                        <span class="place">Campuslands</span>
+                        <span class="date">3rd - 4th Month</span>
+                        <p>Differents project using html, css, javascript and bootstrap, some of this projects are in my
+                            github; university pages, landing pages, police pages, personal exercises, burger shop
+                            pages, etc.</p>
+                        <div class="conectorr">
+                            <div class="circler">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item item-right">
+                        <h4>Backend developer</h4>
+                        <span class="place">Campuslands</span>
+                        <span class="date">6th - 10th Month</span>
+                        <p>Differents projects such as API RESTS with frontend implementation using Java, MySQL,
+                            PostgreSQL and Springboot, some of this projects are designed using differents architectural
+                            methodologys such as hexagonal architecture, MVC and Layers Model. </p>
+                        <div class="conectorr">
+                            <div class="circler">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio -->
+    <section class="portfolio" id="portfolio">
+        <div class="section-content">
+            <h2>PORTFOLIO</h2>
+            <div class="gallery">
+                <div class="project">
+                    <img src="img/p1.png" alt="project 1" class="project-img">
+                    <div class="overlay">
+                        <h3>University page</h3>
+                        <p>Made with html, css, javascript and JSON server.</p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="img/p2.png" alt="project 2" class="project-img">
+                    <div class="overlay">
+                        <h3>Burguer page</h3>
+                        <p>Made with html, css and javascript, it was my first project</p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="img/p3.png" alt="project 3" class="project-img">
+                    <div class="overlay">
+                        <h3>Creative design</h3>
+                        <p>A project that i made only for fun, practicing my skills with html and css.</p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="img/p4.png" alt="project 4" class="project-img">
+                    <div class="overlay">
+                        <h3>Movie page</h3>
+                        <p>Movie page using html, css and javascript using an API REST to get movies info. </p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="img/p5.png" alt="project 5" class="project-img">
+                    <div class="overlay">
+                        <h3>Xbox page</h3>
+                        <p>My first page using html and css, it was my start in the frontend world. I was copying an
+                            Xbox page to see how html and css work.</p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="img/p6.png" alt="project 6" class="project-img">
+                    <div class="overlay">
+                        <h3>Mechanical Store Database</h3>
+                        <p>Design of a mechanical store database using MySQL and Railway (to deploy the database).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section class="contact" id="contact">
+        <div class="section-content">
+            <h2>CONTACT</h2>
+            <div class="row">
+                <!-- form -->
+                <div class="col">
+                    <input type="text" placeholder="Your name">
+                    <input type="tel" placeholder="Phone number">
+                    <input type="text" placeholder="Your Email">
+                    <input type="text" placeholder="Topic">
+                    <textarea cols="30" rows="10" placeholder="Message"></textarea>
+                    <button>
+                        Send<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- map -->
+                 <div class="col">
+                    <img src="img/location.png" alt="location">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Km 4, Anillo Vial, Bucaramanga, Santander
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Call me: +57 318-342-7373
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: cristopherbuitrago0907@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+     <footer>
+        <a href="#home" class="up">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/cristopher-buitrago-02b908304/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/CristopherBuitrago"><i class="fa-brands fa-github"></i></a>
+        </div>
+     </footer>
+</body>
+<script src="js/app.js"></script>
+</html>
