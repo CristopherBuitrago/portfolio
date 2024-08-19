@@ -43,7 +43,7 @@ html {
 }
 
 .container-header header nav ul li a {
-    text-align: center;
+    text-align: none;
     color: #FFFF;
     margin: 0 15px;
     padding: 3px;
@@ -504,7 +504,7 @@ html {
     }
 
     100% {
-        width: 110%;
+        width: 105%;
         background-color: #1fa4e2;
     }
 }
@@ -807,13 +807,14 @@ html {
 }
 
 .contact .col img{
-    width: 150%;
+    width: 100%;
+    border-radius: 50px;
 }
 
 .contact .col .info{
     position: absolute;
     border-radius: 30px;
-    top: 40%;
+    top: 25%;
     background-color: #252a2e;
     padding: 20px;
     max-width: 350px;
@@ -958,5 +959,8 @@ footer .up:hover{
     }
     .contact .row .col{
         width: 100%;
+    }
+    .contact .col .info{
+        top: 50%;
     }
 }
