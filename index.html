@@ -130,10 +130,12 @@
                     </div>
                 </div>
             </div>
-            <button>
-                Download CV <i class="fa-solid fa-download"></i>
-                <span class="overlay"></span>
-            </button>
+            <a href="img/Cristopher_Buitrago-2024-09-06- CVI - 3183427373.pdf" download="Cristopher_Buitrago-2024-09-06- CVI - 3183427373.pdf">
+                <button>
+                    Download CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+            </a>
         </div>
     </section>
 
@@ -400,14 +402,17 @@
                 <!-- form -->
                 <div class="col">
                     <form action="https://formsubmit.co/cristopherbuitrago0907@gmail.com" method="POST">
-                        <input type="name" placeholder="Your name">
-                        <input type="email" placeholder="Your Email">
-                        <textarea cols="30" rows="10" placeholder="Message"></textarea>
-                        <button>
+                        <input id="nombre" type="text" name="name" placeholder="Your name" required>
+                        <input id="email" type="email" name="email" placeholder="Your Email" required>
+                        <textarea id="mensaje" name="message" cols="30" rows="10" placeholder="Message" required></textarea>
+                        <input type="hidden" name="_next" value="https://tu-pagina.com/gracias">
+                        <input type="hidden" name="_captcha" value="false">
+                        <button onclick="mostrarMensaje(event)" type="submit">
                             Send<i class="fa-solid fa-paper-plane"></i>
                             <span class="overlay"></span>
                         </button>
-                   </form>
+                    </form>
+
                 </div>
                 <!-- map -->
                  <div class="col">
@@ -445,4 +450,5 @@
      </footer>
 </body>
 <script src="js/app.js"></script>
+<script src="js/main.js"></script>
 </html>
