@@ -33,7 +33,7 @@ html {
 .container-header header .logo a {
     font-family: "Righteous";
     font-size: 36px;
-    color: #1cb698;
+    color: #FF7428;
     text-decoration: none;
 }
 
@@ -52,11 +52,11 @@ html {
 }
 
 .container-header header nav ul li a:hover {
-    color: #1cb698;
+    color: #FF7428;
 }
 
 .nav-responsive {
-    background-color: #1cb698;
+    background-color: #FF7428;
     color: #FFFF;
     padding: 5px 10px;
     border-radius: 5px;
@@ -88,7 +88,7 @@ html {
 #personal-img {
     width: 80%;
     height: 80%;
-    border: 10px solid #1cb698;
+    border: 10px solid #FF7428;
     display: block;
     margin: auto;
     border-radius: 100%;
@@ -120,7 +120,7 @@ html {
 }
 
 .home .banner-content .social-media a:hover {
-    background-color: #1cb698;
+    background-color: #FF7428;
 }
 
 /* about */
@@ -149,7 +149,7 @@ html {
 }
 
 .about .section-content p span {
-    color: #1cb698;
+    color: #FF7428;
     font-weight: bold;
 }
 
@@ -177,12 +177,12 @@ html {
 
 .about .row .col ul li strong {
     display: inline-block;
-    color: #1cb698;
+    color: #FF7428;
     width: 130px;
 }
 
 .about .row .col ul li span {
-    background-color: #1cb698;
+    background-color: #FF7428;
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
@@ -207,7 +207,7 @@ html {
 }
 
 .about .row .col .interes-container .interes:hover {
-    background-color: #1cb698;
+    background-color: #FF7428;
 }
 
 .about .row .col .interes-container .interes i {
@@ -235,7 +235,7 @@ html {
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1cb698;
+    background-color: #FF7428;
     z-index: -1;
     transition: 1s;
 }
@@ -293,7 +293,7 @@ html {
 }
 
 .skills .skill .progress {
-    background-color: #1cb698;
+    background-color: #FF7428;
     position: absolute;
     top: 0;
     left: 0;
@@ -304,7 +304,7 @@ html {
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: #1cb698;
+    background-color: #FF7428;
     border-radius: 50px;
     line-height: 40px;
     text-align: center;
@@ -484,13 +484,13 @@ html {
 }
 
 .skills .skill .charisma span {
-    background: #1cb698;
+    background: #FF7428;
     animation: 2s charismaspan forwards;
 }
 
 @keyframes charismaspan {
     0% {
-        background-color: #1cb698;
+        background-color: #FF7428;
     }
 
     100% {
@@ -596,7 +596,7 @@ html {
 }
 
 .curriculum .row .item .place {
-    color: #1cb698;
+    color: #FF7428;
     font-size: 22px;
     font-weight: bold;
     display: block;
@@ -604,7 +604,7 @@ html {
 
 .curriculum .row .item .date {
     display: block;
-    color: #1cb698;
+    color: #FF7428;
     margin-bottom: 10px;
 }
 
@@ -613,18 +613,18 @@ html {
 }
 
 .curriculum .row .item-left {
-    border-right: 2px solid #1cb698;
+    border-right: 2px solid #FF7428;
     margin-right: 20px;
 }
 
 .curriculum .row .item-right {
-    border-left: 2px solid #1cb698;
+    border-left: 2px solid #FF7428;
     margin-left: 20px;
 }
 
 .curriculum .row .item .conectorl {
     height: 2px;
-    background-color: #1cb698;
+    background-color: #FF7428;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -637,7 +637,7 @@ html {
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #1cb698;
+    background-color: #FF7428;
     float: right;
     position: relative;
     bottom: 4px;
@@ -645,7 +645,7 @@ html {
 
 .curriculum .row .item .conectorr {
     height: 2px;
-    background-color: #1cb698;
+    background-color: #FF7428;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -658,7 +658,7 @@ html {
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #1cb698;
+    background-color: #FF7428;
     float: left;
     position: relative;
     bottom: 4px;
@@ -797,7 +797,7 @@ html {
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1cb698;
+    background-color: #FF7428;
     z-index: -1;
     transition: 1s;
 }
@@ -831,7 +831,7 @@ html {
 }
 
 .contact .col .info ul li i{
-    color: #1cb698;
+    color: #FF7428;
     display: inline-block;
     margin-right: 20px;
 }
@@ -866,7 +866,7 @@ footer .social-media a{
 }
 
 footer .social-media a:hover{
-    background: #1cb698;
+    background: #FF7428;
 }
 
 footer .up{
@@ -887,7 +887,7 @@ footer .up{
 }
 
 footer .up:hover{
-    background: #1cb698;
+    background: #FF7428;
 }
 
 /* responsive */
